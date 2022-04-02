@@ -16,7 +16,7 @@ flake8==4.0.1
 graphviz==0.19.1
 HTMLParser==0.0.2
 ipdb==0.13.9
-ipython==8.2.0
+ipython==7.32.0
 ipywidgets==7.7.0
 jnius==1.1.0
 keyring==23.5.0
