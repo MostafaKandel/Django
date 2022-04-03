@@ -49,7 +49,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputcard_number">Card Number</label>
-                <input type="text" class="form-control" name="card_number" id="inputcard_number " placeholder="3333 3333 3333 3333" required value="{{card_number}}">
+                <input type="text"  maxlength="16" minlength="16" class="form-control" name="card_number" id="inputcard_number " placeholder="3333 3333 3333 3333" required value="{{card_number}}">
             </div>
             <div class="form-group col-md-4">
                 <label for="inputexpire">Expire</label>
@@ -57,7 +57,7 @@
             </div>
             <div class="form-group col-md-2">
                 <label for="inputsecurity_code">Security Code</label>
-                <input type="text" class="form-control" name="security_code" id="inputsecurity_code" placeholder="111" required value="{{security_code }}">
+                <input type="text" maxlength="3" minlength="3" class="form-control" name="security_code" id="inputsecurity_code" placeholder="111" required value="{{security_code }}">
             </div>
         </div>
   
